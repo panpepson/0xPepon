@@ -1,0 +1,58 @@
+#
+# pep kombo ignore 
+#
+# Ignoruje pliki systemowe i tymczasowe
+*.log
+*.tmp
+*.bak
+
+# Ignoruje katalogi IDE (np. IntelliJ IDEA)
+.idea/
+
+# Ignoruje pliki kompilacji Java
+*.class
+
+# Ignoruje katalogi kompilacji Pythona
+__pycache__/
+*.py[cod]
+
+# Ignoruje pliki środowiska wirtualnego Pythona
+venv/
+env/
+
+# Ignoruje pliki i foldery wygenerowane przez node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignoruje pliki wygenerowane przez systemy budowania (np. Gradle)
+build/
+target/
+
+# Ignoruje pliki i foldery związane z Dockerem
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+# Ignoruje pliki konfiguracyjne środowiska
+.env
+.env.*
+
+# Ignoruje pliki wygenerowane przez systemy zarządzania pakietami (np. Composer dla PHP)
+/vendor/
+
+# Ignoruje pliki binarne i archiwa
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+*.tar.gz
+
+# Ignoruje pliki edytorów tekstu
+*.swp
+*.swo
+
+
+ipep.txt
